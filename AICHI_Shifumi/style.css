@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #293241;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    background-color: #e5e5e5;
+
+}
+#titre{
+    color:#3d5a80;
+    background-color: #e5e5e5;
+  
+}
+#jeu{
+    display: flex;
+    justify-self: center;
+    justify-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+    background-color: #293241;
+    color: #abff4f; 
+}
+.layout{
+padding: 10px;
+}
+
+.name{
+    color: #f35b04;
+    font-weight: bold;
+
+}
+#ordiChoix{
+    color: #f35b04;
+
+}
+.possibilites{
+    display: flex;
+    padding: auto;
+    padding-top: 30px;
+
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #293241;
+    color: #abff4f; 
+   
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+button{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    font-size: x-large;
+    border-color: #ee6c4d;
+    border-width: 5px;
+    background-color: #e0fbfc;
+    border-radius: 80%;
+
+}
+img{
+    width: 60%;
+    background-color: #e0fbfc;
+
+}
